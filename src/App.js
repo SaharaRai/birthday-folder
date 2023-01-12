@@ -9,7 +9,7 @@ function App() {
       <header className="App-header">
         <div className='card'>
           <h1 className='margin-bottom-0'>Ladipma's 5th Birthday Celebration</h1>
-          <img className='photo' src={photo} />
+          <img className='photo' src={photo} alt='photo'/>
           <p className='margin-top-0'>
           <strong>Day: </strong> Saturday, 28th January 5:30 onwards
           <br></br>
