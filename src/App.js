@@ -55,10 +55,12 @@ function App() {
             </p>
           </div>
 
-          <h3 className="margin-bottom-0" style= {{fontSize: '25px' }}><GiMusicalNotes/> Entertainment Volunteers</h3>
-          <p className='margin-top-0'>
-            We would love it if you are able to do any dance, singing or any other performance.
-          </p>
+          <div style={{ }}>
+            <h3 className="margin-bottom-0" style= {{fontSize: '25px' }}><GiMusicalNotes/> Entertainment Volunteers</h3>
+            <p className='margin-top-0' style={{ paddingLeft: '10px', paddingRight: '10px'}}>
+              We would love it if you are able to do any dance, singing or any other performance.
+            </p>
+          </div>
         </div>
         {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
