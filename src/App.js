@@ -5,6 +5,7 @@ import './App.css';
 import { GiForkKnifeSpoon, GiBalloons, GiMusicalNotes, GiPartyPopper } from 'react-icons/gi';
 import { BsMoonStarsFill } from 'react-icons/bs';
 import { FaChild } from 'react-icons/fa';
+import { FcHome } from 'react-icons/fc';
 
 function App() {
   return (
@@ -40,7 +41,7 @@ function App() {
             <strong>Time: </strong> 5:30 onwards 
             <span style={{ color: 'purple' }}> <GiPartyPopper/></span>
             <br></br>
-            <strong>Venue: </strong> Ladipma's home
+            <strong>Venue: </strong> Ladipma's home <FcHome/>
           </p>
 
           <div style= {{backgroundColor: 'white', color: 'darkblue'}} className='padding-top-5 padding-bottom-5'>
