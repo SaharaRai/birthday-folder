@@ -4,7 +4,7 @@ import photo from './photo_with_tocaboca_svg.svg';
 import './App.css';
 import { GiForkKnifeSpoon, GiBalloons, GiMusicalNotes, GiPartyPopper } from 'react-icons/gi';
 import { BsMoonStarsFill } from 'react-icons/bs';
-import { FaChild } from 'react-icons/fa';
+import { FaChild, FaTheaterMasks, FaMicrophoneAlt } from 'react-icons/fa';
 import { FcHome } from 'react-icons/fc';
 
 function App() {
@@ -77,6 +77,13 @@ function App() {
               <br></br>
               <span>- Zilab</span>
               <br></br>
+            </p>
+          </div>
+
+          <div style={{ }}>
+            <h3 className="margin-bottom-0" style= {{fontSize: '25px' }}><FaTheaterMasks/> Performance List</h3>
+            <p className='margin-top-0' style={{ paddingLeft: '10px', paddingRight: '10px'}}>
+              Bianka - <FaMicrophoneAlt/> Singing <i>A thousand years</i>
             </p>
           </div>
         </div>
